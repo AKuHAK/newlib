@@ -531,6 +531,10 @@ extern "C" {
 
 #endif /* __CYGWIN__ */
 
+#ifdef _MIPS_ARCH_R5900
+# define _POSIX_TIMERS				1
+#endif
+
 #ifdef __cplusplus
 }
 #endif

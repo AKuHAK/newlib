@@ -11880,6 +11880,8 @@ subdirs="$subdirs a29khif"
  ;;
 	z8ksim) subdirs="$subdirs z8ksim"
  ;;
+	ps2) subdirs="$subdirs ps2"
+ ;;
   esac;
 fi
 
